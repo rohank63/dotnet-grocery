@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "P4U1fN6qEi0ZS89ZoBOZBA37QSUphFIX9a2go4CXB0ARZhfFABRyQBGQLURwptjqzM3Ja9xRPyHcJU/c8abw7w==",
+  "success": true,
+  "projectFilePath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\mongodb.bson\\2.11.0\\mongodb.bson.2.11.0.nupkg.sha512",
+    "C:\\Users\\KUMARUMA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
