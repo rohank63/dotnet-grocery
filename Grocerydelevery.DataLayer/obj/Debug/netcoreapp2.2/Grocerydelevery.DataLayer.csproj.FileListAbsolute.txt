@@ -22,3 +22,15 @@ D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.DataLayer\obj\Debug\ne
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.csproj.CopyComplete
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.dll
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.deps.json
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.Entities.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.Entities.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.csprojAssemblyReference.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.AssemblyInfoInputs.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.AssemblyInfo.cs
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.csproj.CoreCompileInputs.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.csproj.CopyComplete
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.DataLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.pdb

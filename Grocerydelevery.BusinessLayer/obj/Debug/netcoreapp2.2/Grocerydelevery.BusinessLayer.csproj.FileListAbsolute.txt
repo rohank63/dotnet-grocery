@@ -26,3 +26,17 @@ D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.BusinessLayer\obj\Debu
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.csproj.CopyComplete
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.dll
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.deps.json
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.Entities.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.DataLayer.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\bin\Debug\netcoreapp2.2\Grocerydelevery.Entities.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.csprojAssemblyReference.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.AssemblyInfoInputs.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.AssemblyInfo.cs
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.csproj.CopyComplete
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.pdb

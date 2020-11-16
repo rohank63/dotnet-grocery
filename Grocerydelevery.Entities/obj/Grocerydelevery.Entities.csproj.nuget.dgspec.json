@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {}
+    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {}
   },
   "projects": {
-    "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
+    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
+        "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
         "projectName": "Grocerydelevery.Entities",
-        "projectPath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
+        "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\obj\\",
+        "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

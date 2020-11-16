@@ -12440,11 +12440,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery\\Grocerydelevery.csproj",
+      "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj",
       "projectName": "Grocerydelevery",
-      "projectPath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery\\Grocerydelevery.csproj",
+      "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj",
       "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-      "outputPath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery\\obj\\",
+      "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12463,14 +12463,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj": {
-              "projectPath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj"
+            "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj": {
+              "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj"
             },
-            "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
-              "projectPath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj"
+            "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
+              "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj"
             },
-            "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
-              "projectPath": "D:\\IIHT\\Code_Clean\\FSE_PA_GroceryDelivery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
+            "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
+              "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
             }
           }
         }

@@ -16,3 +16,12 @@ D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.Entities\obj\Debug\net
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.csproj.CoreCompileInputs.cache
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.dll
 D:\IIHT\Code_Clean\FSE_PA_GroceryDelivery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\bin\Debug\netcoreapp2.2\Grocerydelevery.Entities.deps.json
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\bin\Debug\netcoreapp2.2\Grocerydelevery.Entities.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\bin\Debug\netcoreapp2.2\Grocerydelevery.Entities.pdb
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.csprojAssemblyReference.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.AssemblyInfoInputs.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.AssemblyInfo.cs
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.csproj.CoreCompileInputs.cache
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.dll
+D:\GIT_Backup\Dotnet_FSE_PA_Grocerydelevery\Grocerydelevery.Entities\obj\Debug\netcoreapp2.2\Grocerydelevery.Entities.pdb
