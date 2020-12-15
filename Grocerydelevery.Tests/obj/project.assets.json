@@ -5433,11 +5433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
       "projectName": "Grocerydelevery.Tests",
-      "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
+      "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
       "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-      "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\obj\\",
+      "outputPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5456,8 +5456,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj": {
-              "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj"
+            "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\Grocerydelevery.csproj": {
+              "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\Grocerydelevery.csproj"
             }
           }
         }

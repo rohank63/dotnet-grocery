@@ -1,0 +1,9 @@
+Z
+QD:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\DashboardController.csutf-8X
+OD:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\GroceryController.csutf-8U
+LD:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\UserController.csutf-8B
+9D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Program.csutf-8B
+9D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Startup.csutf-8€
+uD:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\obj\Debug\netcoreapp2.2\.NETCoreApp,Version=v2.2.AssemblyAttributes.csutf-8q
+fD:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\obj\Debug\netcoreapp2.2\Grocerydelevery.AssemblyInfo.csutf-8v
+kD:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\obj\Debug\netcoreapp2.2\Grocerydelevery.RazorAssemblyInfo.csutf-8

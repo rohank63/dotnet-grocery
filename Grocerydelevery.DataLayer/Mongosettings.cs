@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Grocerydelevery.DataLayer
+﻿namespace Grocerydelevery.DataLayer
 {
     public class Mongosettings
     {

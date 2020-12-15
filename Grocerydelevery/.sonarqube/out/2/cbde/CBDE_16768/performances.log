@@ -1,0 +1,218 @@
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Interfaces\IAdminGroceryServices.cs
+AddCategory 6
+AddCategory -1
+RemoveCategory 4
+RemoveCategory -1
+UpdateCategory 5
+UpdateCategory -1
+AddProduct 7
+AddProduct -1
+RemoveProduct 41
+RemoveProduct -1
+UpdateProduct 8
+UpdateProduct -1
+GetCategoryById 5
+GetCategoryById -1
+GetProductById 8
+GetProductById -1
+GetOrderById 6
+GetOrderById -1
+AllOrder 5
+AllOrder -1
+AllProduct 52
+AllProduct -1
+GetAllUser 4
+GetAllUser -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Interfaces\IGroceryServices.cs
+PlaceOrder 4
+PlaceOrder -1
+GetAllProduct 4
+GetAllProduct -1
+GetProductById 3
+GetProductById -1
+GetProductByCategory 4
+GetProductByCategory -1
+ProductByName 4
+ProductByName -1
+CategoryList 6
+CategoryList -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Interfaces\IUserGroceryServices.cs
+Register 4
+Register -1
+GetUserById 4
+GetUserById -1
+UpdateUser 4
+UpdateUser -1
+Login 4
+Login -1
+Logout 4
+Logout -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\AdminGroceryServices.cs
+AddCategory 4
+AddCategory -1
+AddProduct 80
+AddProduct -1
+AllOrder 5
+AllOrder -1
+AllProduct 4
+AllProduct -1
+GetAllUser 11
+GetAllUser -1
+GetCategoryById 5
+GetCategoryById -1
+GetOrderById 5
+GetOrderById -1
+GetProductById 25
+GetProductById -1
+RemoveCategory 8
+RemoveCategory -1
+RemoveProduct 6
+RemoveProduct -1
+UpdateCategory 9
+UpdateCategory -1
+UpdateProduct 7
+UpdateProduct -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\GroceryServices.cs
+GetAllProduct 5
+GetAllProduct -1
+GetProductById 27
+GetProductById -1
+CategoryList 23
+CategoryList -1
+ProductByName 6
+ProductByName -1
+GetProductByCategory 8
+GetProductByCategory -1
+PlaceOrder 6
+PlaceOrder -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\Repository\AdminGroceryRepository.cs
+AddCategory 9
+AddCategory -1
+AddProduct 6
+AddProduct -1
+AllOrder 4
+AllOrder -1
+AllProduct 3
+AllProduct -1
+GetAllUser 6
+GetAllUser -1
+GetCategoryById 4
+GetCategoryById -1
+GetOrderById 4
+GetOrderById -1
+GetProductById 4
+GetProductById -1
+RemoveCategory 5
+RemoveCategory -1
+RemoveProduct 4
+RemoveProduct -1
+UpdateCategory 5
+UpdateCategory -1
+UpdateProduct 4
+UpdateProduct -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\Repository\GroceryRepository.cs
+GetAllProduct 4
+GetAllProduct -1
+GetProductById 4
+GetProductById -1
+CategoryList 31
+CategoryList -1
+PlaceOrder 4
+PlaceOrder -1
+ProductByName 4
+ProductByName -1
+GetProductByCategory 5
+GetProductByCategory -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\Repository\IAdminGroceryRepository.cs
+AddCategory 3
+AddCategory -1
+RemoveCategory 4
+RemoveCategory -1
+UpdateCategory 5
+UpdateCategory -1
+AddProduct 20
+AddProduct -1
+RemoveProduct 7
+RemoveProduct -1
+UpdateProduct 4
+UpdateProduct -1
+GetCategoryById 7
+GetCategoryById -1
+GetProductById 5
+GetProductById -1
+AllOrder 4
+AllOrder -1
+GetOrderById 4
+GetOrderById -1
+AllProduct 5
+AllProduct -1
+GetAllUser 16
+GetAllUser -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\Repository\IGroceryRepository.cs
+PlaceOrder 4
+PlaceOrder -1
+GetAllProduct 4
+GetAllProduct -1
+GetProductById 4
+GetProductById -1
+GetProductByCategory 3
+GetProductByCategory -1
+ProductByName 3
+ProductByName -1
+CategoryList 4
+CategoryList -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\Repository\IUserGroceryRepository.cs
+Register 11
+Register -1
+GetUserById 6
+GetUserById -1
+UpdateUser 5
+UpdateUser -1
+Login 5
+Login -1
+Logout 13
+Logout -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\Repository\UserGroceryRepository.cs
+GetUserById 4
+GetUserById -1
+Login 4
+Login -1
+Logout 35
+Logout -1
+Register 4
+Register -1
+UpdateUser 5
+UpdateUser -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\UserGroceryServices.cs
+GetUserById 5
+GetUserById -1
+Login 6
+Login -1
+Logout 56
+Logout -1
+Register 15
+Register -1
+UpdateUser 6
+UpdateUser -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\ViewModels\CategoryViewModel.cs
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\ViewModels\ProductViewModel.cs
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\ViewModels\UserViewModel.cs
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\.NETCoreApp,Version=v2.2.AssemblyAttributes.cs
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\obj\Debug\netcoreapp2.2\Grocerydelevery.BusinessLayer.AssemblyInfo.cs
+

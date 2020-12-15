@@ -4,9 +4,7 @@ using Grocerydelevery.BusinessLayer.Services.Repository;
 using Grocerydelevery.Entities;
 using Moq;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Xunit;
@@ -27,7 +25,6 @@ namespace Grocerydelevery.Tests.TestCases
         private ApplicationUser _user;
         private Product _product;
         private Category _category;
-        private ProductOrder _productOrder;
         public BoundaryTest()
         {
             /// <summary>

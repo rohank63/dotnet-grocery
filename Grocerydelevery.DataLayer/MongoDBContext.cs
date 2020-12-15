@@ -1,17 +1,10 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Grocerydelevery.DataLayer
 {
     public class MongoDBContext : IMongoDBContext
     {
-        /// <summary>
-        /// Cearting IMongoDatabase, MongoClient setter or getter property and injecting 
-        /// in ContextConstructor and using two Setting setter getter bring him databse and connection
-        /// </summary>
         private IMongoDatabase _mongoDatabase { get; set; }
         private MongoClient _mongoClient { get; set; }
         private IClientSessionHandle SessionHandle { get; set; }

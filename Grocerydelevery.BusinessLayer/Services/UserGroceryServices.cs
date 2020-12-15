@@ -2,8 +2,6 @@
 using Grocerydelevery.BusinessLayer.Services.Repository;
 using Grocerydelevery.Entities;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Grocerydelevery.BusinessLayer.Services

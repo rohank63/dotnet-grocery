@@ -1,0 +1,62 @@
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\DashboardController.cs
+AllOrder 4
+AllOrder -1
+OrderById 4
+OrderById -1
+AddNewCategory 4
+AddNewCategory -1
+AddNewProduct 7
+AddNewProduct -1
+Updatecategory 30
+Updatecategory -1
+UpdateProduct 7
+UpdateProduct -1
+RemoveCategory 5
+RemoveCategory -1
+RemoveProduct 9
+RemoveProduct -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\GroceryController.cs
+AllProduct 4
+AllProduct -1
+ProductById 6
+ProductById -1
+ProductByCategory 26
+ProductByCategory -1
+ProductByName 8
+ProductByName -1
+GetCategoryList 16
+GetCategoryList -1
+Placeorder 4
+Placeorder -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\UserController.cs
+AllUser 4
+AllUser -1
+Get 47
+Get -1
+AddNewUser 4
+AddNewUser -1
+UpdateUser 5
+UpdateUser -1
+Delete 4
+Delete -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Program.cs
+Main 10
+Main -1
+CreateWebHostBuilder 4
+CreateWebHostBuilder -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Startup.cs
+ConfigureServices 28
+ConfigureServices -1
+Configure 5
+Configure -1
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\obj\Debug\netcoreapp2.2\.NETCoreApp,Version=v2.2.AssemblyAttributes.cs
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\obj\Debug\netcoreapp2.2\Grocerydelevery.AssemblyInfo.cs
+
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\obj\Debug\netcoreapp2.2\Grocerydelevery.RazorAssemblyInfo.cs
+

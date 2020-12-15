@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj": {}
+    "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj": {}
   },
   "projects": {
-    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj": {
+    "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj",
         "projectName": "Grocerydelevery.BusinessLayer",
-        "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
-                "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj"
+              "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj"
               },
-              "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
-                "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
+    "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj",
         "projectName": "Grocerydelevery.DataLayer",
-        "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -95,8 +95,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
-                "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
+    "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
         "projectName": "Grocerydelevery.Entities",
-        "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj": {
+    "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
         "projectName": "Grocerydelevery.Tests",
-        "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\Grocerydelevery.Tests.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Tests\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -227,8 +227,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj": {
-                "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj"
+              "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\Grocerydelevery.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\Grocerydelevery.csproj"
               }
             }
           }
@@ -283,14 +283,14 @@
         }
       }
     },
-    "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj": {
+    "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\Grocerydelevery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\Grocerydelevery.csproj",
         "projectName": "Grocerydelevery",
-        "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\Grocerydelevery.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\Grocerydelevery.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -309,14 +309,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj": {
-                "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj"
+              "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.BusinessLayer\\Grocerydelevery.BusinessLayer.csproj"
               },
-              "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
-                "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj"
+              "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.DataLayer\\Grocerydelevery.DataLayer.csproj"
               },
-              "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
-                "projectPath": "D:\\GIT_Backup\\Dotnet_FSE_PA_Grocerydelevery\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Desktop\\Project-MongoDb\\Grocerydelevery.Entities\\Grocerydelevery.Entities.csproj"
               }
             }
           }

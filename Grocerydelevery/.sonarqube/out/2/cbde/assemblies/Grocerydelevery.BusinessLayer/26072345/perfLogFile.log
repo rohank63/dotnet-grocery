@@ -1,0 +1,19 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\AdminGroceryServices.cs	60	_Grocerydelevery.BusinessLayer.Services.AdminGroceryServices.GetAllUser$$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\AdminGroceryServices.cs	70	_Grocerydelevery.BusinessLayer.Services.AdminGroceryServices.GetCategoryById$string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\AdminGroceryServices.cs	80	_Grocerydelevery.BusinessLayer.Services.AdminGroceryServices.GetOrderById$string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\AdminGroceryServices.cs	90	_Grocerydelevery.BusinessLayer.Services.AdminGroceryServices.GetProductById$string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\AdminGroceryServices.cs	119	_Grocerydelevery.BusinessLayer.Services.AdminGroceryServices.UpdateCategory$string.Grocerydelevery.Entities.Category$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\AdminGroceryServices.cs	130	_Grocerydelevery.BusinessLayer.Services.AdminGroceryServices.UpdateProduct$string.Grocerydelevery.Entities.Product$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\GroceryServices.cs	22	_Grocerydelevery.BusinessLayer.Services.GroceryServices.GetAllProduct$$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\GroceryServices.cs	32	_Grocerydelevery.BusinessLayer.Services.GroceryServices.GetProductById$string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\GroceryServices.cs	41	_Grocerydelevery.BusinessLayer.Services.GroceryServices.CategoryList$$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\GroceryServices.cs	51	_Grocerydelevery.BusinessLayer.Services.GroceryServices.ProductByName$string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\GroceryServices.cs	61	_Grocerydelevery.BusinessLayer.Services.GroceryServices.GetProductByCategory$int$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\GroceryServices.cs	72	_Grocerydelevery.BusinessLayer.Services.GroceryServices.PlaceOrder$string.string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\Repository\UserGroceryRepository.cs	68	_Grocerydelevery.BusinessLayer.Services.Repository.UserGroceryRepository.Logout$$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\UserGroceryServices.cs	23	_Grocerydelevery.BusinessLayer.Services.UserGroceryServices.GetUserById$string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\UserGroceryServices.cs	34	_Grocerydelevery.BusinessLayer.Services.UserGroceryServices.Login$string.string$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\UserGroceryServices.cs	43	_Grocerydelevery.BusinessLayer.Services.UserGroceryServices.Logout$$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\UserGroceryServices.cs	52	_Grocerydelevery.BusinessLayer.Services.UserGroceryServices.Register$Grocerydelevery.Entities.ApplicationUser$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery.BusinessLayer\Services\UserGroceryServices.cs	63	_Grocerydelevery.BusinessLayer.Services.UserGroceryServices.UpdateUser$string.Grocerydelevery.Entities.ApplicationUser$	0	2

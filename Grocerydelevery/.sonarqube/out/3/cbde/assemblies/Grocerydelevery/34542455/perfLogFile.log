@@ -1,0 +1,5 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\GroceryController.cs	83	_Grocerydelevery.Controllers.GroceryController.GetCategoryList$$	0	6
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Program.cs	7	_Grocerydelevery.Program.Main$string$$$	0	3
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\UserController.cs	39	_Grocerydelevery.Controllers.UserController.Get$int$	0	2
+D:\IIHT\Task_6\Project-MongoDb\Grocerydelevery\Controllers\UserController.cs	97	_Grocerydelevery.Controllers.UserController.Delete$int$	0	2

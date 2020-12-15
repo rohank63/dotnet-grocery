@@ -4,7 +4,7 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Runtime.ExceptionServices;
 using System.Threading.Tasks;
 
 namespace Grocerydelevery.BusinessLayer.Services.Repository
@@ -47,7 +47,7 @@ namespace Grocerydelevery.BusinessLayer.Services.Repository
             }
             catch (Exception ex)
             {
-                throw (ex);
+                throw(ex);
             }
             return category;
         }
@@ -69,7 +69,7 @@ namespace Grocerydelevery.BusinessLayer.Services.Repository
             }
             catch (Exception ex)
             {
-                throw (ex);
+                ExceptionDispatchInfo.Capture(ex.InnerException).Throw();
             }
             return product;
         }

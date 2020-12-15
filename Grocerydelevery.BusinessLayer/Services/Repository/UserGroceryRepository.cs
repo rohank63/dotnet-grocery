@@ -3,8 +3,6 @@ using Grocerydelevery.Entities;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Grocerydelevery.BusinessLayer.Services.Repository
@@ -35,7 +33,7 @@ namespace Grocerydelevery.BusinessLayer.Services.Repository
             {
                 var objectId = new ObjectId(UserId);
                 FilterDefinition<ApplicationUser> filter = Builders<ApplicationUser>.Filter.Eq("UserId", objectId);
-                _dbCollection = _mongoContext.GetCollection<ApplicationUser>(typeof(Product).Name);
+                _dbCollection = _mongoContext.GetCollection<ApplicationUser>(typeof(ApplicationUser).Name);
                 return await _dbCollection.FindAsync(filter).Result.FirstOrDefaultAsync();
             }
             catch (Exception ex)
