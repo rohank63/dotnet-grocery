@@ -26,7 +26,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public async Task<Category> AddCategory(Category category)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return await _adminRepository.AddCategory(category);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Add new Product
@@ -36,7 +38,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public async Task<Product> AddProduct(Product product)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return await _adminRepository.AddProduct(product);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get all order
@@ -45,7 +49,10 @@ namespace Grocerydelevery.BusinessLayer.Services
         public async Task<IEnumerable<ProductOrder>> AllOrder()
         {
             //Do code here
-            throw new NotImplementedException();
+
+            Task<IEnumerable<ProductOrder>> all_order = _adminRepository.AllOrder();
+            return await all_order;
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// get all product
@@ -63,7 +70,21 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<IEnumerable<ApplicationUser>> GetAllUser()
         {
             //Do code here
-            throw new NotImplementedException();
+
+            Task<IEnumerable<ApplicationUser>> all_users = _adminRepository.GetAllUser();
+            return all_users;
+
+            //throw new NotImplementedException();
+        }
+        /// <summary>
+        /// Remove User
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        public Task<bool> RemoveUser(string Id)
+        {
+            return _adminRepository.RemoveUser(Id);
+
         }
         /// <summary>
         /// Get Category ById
@@ -73,7 +94,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<Category> GetCategoryById(string Id)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _adminRepository.GetCategoryById(Id);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get Order By Id
@@ -83,7 +106,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<ProductOrder> GetOrderById(string OrderId)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _adminRepository.GetOrderById(OrderId);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get Product By Id
@@ -93,7 +118,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<Product> GetProductById(string ProductId)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _adminRepository.GetProductById(ProductId);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Remove Category
@@ -103,7 +130,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public async Task<bool> RemoveCategory(string Id)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return await _adminRepository.RemoveCategory(Id);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Remove Product
@@ -113,7 +142,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public async Task<bool> RemoveProduct(string Id)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return await _adminRepository.RemoveProduct(Id);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Update Category
@@ -124,7 +155,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<Category> UpdateCategory(string Id, Category category)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _adminRepository.UpdateCategory(Id, category);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Update Product
@@ -135,7 +168,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<Product> UpdateProduct(string ProductId, Product product)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _adminRepository.UpdateProduct(ProductId, product);
+            //throw new NotImplementedException();
         }
     }
 }

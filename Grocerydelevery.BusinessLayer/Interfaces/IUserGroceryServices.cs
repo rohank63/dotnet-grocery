@@ -1,4 +1,5 @@
-﻿using Grocerydelevery.Entities;
+﻿using Grocerydelevery.BusinessLayer.ViewModels;
+using Grocerydelevery.Entities;
 using System.Threading.Tasks;
 
 namespace Grocerydelevery.BusinessLayer.Interfaces

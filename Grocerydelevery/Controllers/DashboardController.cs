@@ -35,7 +35,9 @@ namespace Grocerydelevery.Controllers
         public async Task<IEnumerable<ProductOrder>> AllOrder()
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return await _adminGS.AllOrder();
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get product Order By Id
@@ -47,7 +49,12 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> OrderById(string OrderId)
         {
             //Do code here
-            return Ok();
+            Task<ProductOrder> order_by_id = _adminGS.GetOrderById(OrderId);
+            if (order_by_id.Result is null)
+                return NotFound("Wrong OrderId");
+            else
+                return Ok(order_by_id.Result.OrderId);
+            
         }
         /// <summary>
         /// Add new category in MongoDb Collection
@@ -59,7 +66,17 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> AddNewCategory([FromBody] CategoryViewModel model)
         {
             //Do code here
-            return Ok();
+            Category cat = new Category();
+            cat.Title = model.Title;
+            cat.Url = model.Url;
+            cat.OpenInNewWindow = model.OpenInNewWindow;
+            
+
+
+            Task<Category> new_cat = _adminGS.AddCategory(cat);
+            return Created(HttpContext.Request.Scheme + "://" + HttpContext.Request.Host + HttpContext.Request.Path + "/" + cat.Id,
+                cat.Title);
+            //return Ok();
         }
         /// <summary>
         /// Add new Product in MongoDb Collection
@@ -71,7 +88,20 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> AddNewProduct([FromBody] ProductViewModel model)
         {
             //Do code here
-            return Ok();
+            Product pro = new Product();
+            pro.ProductName = model.ProductName;
+            pro.Description = model.Description;
+            pro.Amount = model.Amount;
+            pro.stock = model.stock;
+            pro.photo = model.photo;
+            pro.CatId = model.CatId;
+            pro.ProductOrder = model.ProductOrder;
+
+
+            Task<Product> new_pro = _adminGS.AddProduct(pro);
+            return Created(HttpContext.Request.Scheme + "://" + HttpContext.Request.Host + HttpContext.Request.Path + "/" + pro.ProductId,
+                pro.ProductName);
+            //return Ok();
         }
         /// <summary>
         /// Updatecategory in MongoDb Collection
@@ -80,11 +110,18 @@ namespace Grocerydelevery.Controllers
         /// <param name="category"></param>
         /// <returns></returns>
         [HttpPut]
-        [Route("Updatecategory/{string Id}")]
+        [Route("Updatecategory/{Id}")]
         public async Task<IActionResult> Updatecategory(string Id, [FromBody] Category category)
         {
             //Do code here
-            return Ok();
+            if (Id is null)
+                return NotFound("Category with Id not found");
+
+
+            Task<Category> up_cat = _adminGS.UpdateCategory(Id, category);
+            if (up_cat.Result is null)
+                return Ok("Make Sure Id and Category is correct");
+            return Ok("Updated");
         }
         /// <summary>
         /// Update Product in MongoDb
@@ -93,11 +130,17 @@ namespace Grocerydelevery.Controllers
         /// <param name="product"></param>
         /// <returns></returns>
         [HttpPut]
-        [Route("UpdateProduct/{string ProductId}")]
+        [Route("UpdateProduct/{ProductId}")]
         public async Task<IActionResult> UpdateProduct(string ProductId, [FromBody] Product product)
         {
             //Do code here
-            return Ok();
+            if (ProductId is null)
+                return NotFound("Product Id not found");
+
+            Task<Product> up_pro = _adminGS.UpdateProduct(ProductId, product);
+            if (up_pro.Result is null)
+                return Ok("Make sure ProductId and Product is correct");
+            return Ok("Updated");
         }
         /// <summary>
         /// Remove Category form MmongoDb by Id
@@ -109,7 +152,10 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> RemoveCategory(string Id)
         {
             //Do code here
-            return Ok();
+            Task<bool> is_valid = _adminGS.RemoveCategory(Id);
+            if (is_valid.Result == false)
+                return NotFound("No Category found with given Id");
+            return Ok("Deleted");
         }
         /// <summary>
         /// Remove Product from MongoDb
@@ -121,7 +167,16 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> RemoveProduct(string ProductId)
         {
             //Do code here
-            return Ok();
+            Task<Product> x = _adminGS.GetProductById(ProductId);
+            if (x.Result is null)
+                return NotFound("No Product found with given Id");
+
+            Task<bool> is_valid = _adminGS.RemoveProduct(ProductId);
+            if (is_valid.Result == false)
+                return NotFound("No Product found with given Id");
+            return Ok("Deleted");
+        
+            //return Ok();
         }
     }
 }

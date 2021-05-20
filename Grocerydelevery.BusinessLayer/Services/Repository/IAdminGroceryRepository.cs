@@ -18,5 +18,6 @@ namespace Grocerydelevery.BusinessLayer.Services.Repository
         Task<ProductOrder> GetOrderById(string OrderId);
         Task<IEnumerable<Product>> AllProduct();
         Task<IEnumerable<ApplicationUser>> GetAllUser();
+        Task<bool> RemoveUser(string Id);
     }
 }

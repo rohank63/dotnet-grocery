@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{7A2533A2-9D81-4C19-A920-BB31EECC4C34}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UserController.cs">
+    <Files>
+      <File FileName="../Grocerydelevery.BusinessLayer/Services/GroceryServices.cs" Line="29" Column="32" />
+      <File FileName="../Grocerydelevery.BusinessLayer/Services/Repository/GroceryRepository.cs" Line="1" Column="1" />
+      <File FileName="Controllers/UserController.cs" Line="99" Column="67" />
+      <File FileName="Controllers/GroceryController.cs" Line="55" Column="59" />
+      <File FileName="Controllers/DashboardController.cs" Line="113" Column="33" />
+      <File FileName="../Grocerydelevery.BusinessLayer/Services/AdminGroceryServices.cs" Line="98" Column="57" />
+      <File FileName="../Grocerydelevery.BusinessLayer/Services/Repository/AdminGroceryRepository.cs" Line="1" Column="1" />
+      <File FileName="../Grocerydelevery.BusinessLayer/Services/UserGroceryServices.cs" Line="42" Column="66" />
+      <File FileName="../Grocerydelevery.BusinessLayer/Services/Repository/UserGroceryRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Grocerydelevery" expanded="True">
+            <Node name="Grocerydelevery" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="Grocerydelevery.BusinessLayer" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="Repository" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="Grocerydelevery.DataLayer" expanded="True" />
+            <Node name="Grocerydelevery.Entities" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Grocerydelevery PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -111,5 +111,6 @@ namespace Grocerydelevery.BusinessLayer.Services.Repository
                 .Set("Road_area", user.Road_area).Set("City", user.City).Set("State", user.State));
             return update;
         }
+
     }
 }

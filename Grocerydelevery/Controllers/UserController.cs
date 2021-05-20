@@ -36,14 +36,20 @@ namespace Grocerydelevery.Controllers
         public async Task<IEnumerable<ApplicationUser>> AllUser()
         {
             //Do code here
-            throw new NotImplementedException();
+            return await _adminGS.GetAllUser();
+            //throw new NotImplementedException();
         }
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string Get(string id)
         {
-            return "value";
+
+            Task<ApplicationUser> user_by_id = _userGS.GetUserById(id);
+            if (user_by_id.Result is null)
+                return "Wrong UserId";
+            else
+                return user_by_id.Result.Name;
         }
 
         /// <summary>
@@ -56,7 +62,22 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> AddNewUser([FromBody] UserViewModel model)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            ApplicationUser new_user = new ApplicationUser();
+            new_user.Name = model.Name;
+            new_user.Email = model.Email;
+            new_user.Password = model.Password;
+            new_user.PinCode = model.PinCode;
+            new_user.Road_area = model.Road_area;
+            new_user.State = model.State;
+            new_user.MobileNumber = model.MobileNumber;
+            new_user.HouseNo_Building_Name = model.HouseNo_Building_Name;
+            new_user.State = model.State;
+
+            Task<ApplicationUser> obj_user = _userGS.Register(new_user);
+            return Created(HttpContext.Request.Scheme + "://" + HttpContext.Request.Host + HttpContext.Request.Path + "/" + obj_user.Result.UserId,
+                obj_user.Result.Name);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Update registred User
@@ -69,13 +90,30 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> UpdateUser(string UserId, [FromBody] ApplicationUser user)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            if (UserId is null)
+                return NotFound($"Employee with Id: {UserId} was not found");
+
+            Task<ApplicationUser> user_updated = _userGS.UpdateUser(UserId, user);
+            if (user_updated.Result is null)
+                return Ok("Make Sure UserId and user is correct");
+            return Ok("Updated");
+
+
+            //throw new NotImplementedException();
         }
 
         // DELETE api/<UserController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void Delete(string id)
         {
+            Task<ApplicationUser> user_by_id = _userGS.GetUserById(id);
+            if (user_by_id.Result != null)
+            {
+                Task<bool> ans = _adminGS.RemoveUser(id);
+                //Console.WriteLine(ans.Result);
+            }
+
         }
     }
 }

@@ -24,7 +24,10 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<IEnumerable<Product>> GetAllProduct()
         {
             //Do code here
-            throw new NotImplementedException();
+
+            Task<IEnumerable<Product>> all_product = _groceryRepository.GetAllProduct();
+            return all_product;
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get Product by Id
@@ -34,7 +37,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<Product> GetProductById(string ProductId)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _groceryRepository.GetProductById(ProductId);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get acategory list
@@ -43,7 +48,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public IList<Category> CategoryList()
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _groceryRepository.CategoryList();
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get Product by name
@@ -53,7 +60,10 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<IEnumerable<Product>> ProductByName(string ProductName)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            Task<IEnumerable<Product>> producy_by_name = _groceryRepository.ProductByName(ProductName);
+            return producy_by_name;
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get Product By Category
@@ -63,7 +73,10 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<IEnumerable<Product>> GetProductByCategory(int CatId)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            Task<IEnumerable<Product>> all_product_by_cid = _groceryRepository.GetProductByCategory(CatId);
+            return all_product_by_cid;
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Place order
@@ -74,7 +87,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<bool> PlaceOrder(string ProductId, string UserId)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _groceryRepository.PlaceOrder(ProductId, UserId);
+            //throw new NotImplementedException();
         }
     }
 }

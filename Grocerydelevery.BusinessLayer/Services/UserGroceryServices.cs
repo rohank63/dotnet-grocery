@@ -24,7 +24,10 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<ApplicationUser> GetUserById(string UserId)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _userGroceryRepository.GetUserById(UserId); 
+
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Loging user to check is registred or not
@@ -35,7 +38,9 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<ApplicationUser> Login(string Email, string password)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _userGroceryRepository.Login(Email, password);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Log out 
@@ -54,7 +59,10 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<ApplicationUser> Register(ApplicationUser user)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _userGroceryRepository.Register(user);
+
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Update user
@@ -65,7 +73,10 @@ namespace Grocerydelevery.BusinessLayer.Services
         public Task<ApplicationUser> UpdateUser(string UserId, ApplicationUser user)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return _userGroceryRepository.UpdateUser(UserId, user);
+
+            //throw new NotImplementedException();
         }
     }
 }

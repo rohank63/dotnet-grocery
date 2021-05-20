@@ -128,6 +128,26 @@ namespace Grocerydelevery.BusinessLayer.Services.Repository
             }
         }
         /// <summary>
+        /// Remove User
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        public async Task<bool> RemoveUser(string Id)
+        {
+            try
+            {
+                var objectId = new ObjectId(Id);
+                FilterDefinition<ApplicationUser> filter = Builders<ApplicationUser>.Filter.Eq("UserId", objectId);
+                var _dbCollection = _mongoContext.GetCollection<ApplicationUser>(typeof(ApplicationUser).Name);
+                var result = await _dbCollection.DeleteOneAsync(filter);
+                return result.DeletedCount > 0;
+            }
+            catch (Exception ex)
+            {
+                throw (ex);
+            }
+        }
+        /// <summary>
         /// Get category by CategoryId
         /// </summary>
         /// <param name="Id"></param>

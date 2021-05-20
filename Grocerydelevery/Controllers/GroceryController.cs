@@ -49,7 +49,12 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> ProductById(string ProductId)
         {
             //Do code here
-            return Ok();
+            Task<Product> product_by_id = _groceryServices.GetProductById(ProductId);
+
+            if (product_by_id.Result is null)
+                return NotFound($"{ProductId} not found");
+            
+            return Ok(product_by_id.Result.ProductName);
         }
         /// <summary>
         /// Get All product by CategoryId
@@ -61,7 +66,9 @@ namespace Grocerydelevery.Controllers
         public async Task<IEnumerable<Product>> ProductByCategory(int CatId)
         {
             //Do code here
-            throw new NotImplementedException();
+            return await _groceryServices.GetProductByCategory(CatId);
+
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get product by product Name
@@ -73,7 +80,9 @@ namespace Grocerydelevery.Controllers
         public async Task<IEnumerable<Product>> ProductByName(string ProductName)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return await _groceryServices.ProductByName(ProductName);
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Get all category list
@@ -84,7 +93,9 @@ namespace Grocerydelevery.Controllers
         public IActionResult GetCategoryList()
         {
             //Do code here
-            throw new NotImplementedException();
+
+            return Ok(_groceryServices.CategoryList());
+            //throw new NotImplementedException();
         }
         /// <summary>
         /// Place order for Registred user
@@ -98,7 +109,22 @@ namespace Grocerydelevery.Controllers
         public async Task<IActionResult> Placeorder(string ProductId, string email, string password)
         {
             //Do code here
-            throw new NotImplementedException();
+
+            Task<ApplicationUser> l_user = _userGroceryServices.Login(email, password);
+            if(l_user.Result is null)
+                return NotFound("No User Found");
+
+            Task<Product> product_by_id = _groceryServices.GetProductById(ProductId);
+            if (product_by_id.Result is null)
+                return NotFound($"{ProductId} not found");
+
+            Task<bool> x = _groceryServices.PlaceOrder(ProductId,l_user.Result.UserId);
+            return Ok("Order Placed");
+
+            // Check for Stock of that Product
+            
+            
+            //throw new NotImplementedException();
         }
     }
 }
